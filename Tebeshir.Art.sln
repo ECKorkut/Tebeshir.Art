@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AFD94D17-3BE7-43A0-895C-DFEBD094CA35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{E67D0822-C1A7-4359-A050-013BEDA36812}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{9EEB2972-C1EE-478A-B5A5-F498BBE0CC43}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Tebeshir.Art", "Tebeshir.Art\Tebeshir.Art.esproj", "{C1147BEC-A126-446F-9581-4E0AD8792670}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4F9AE8F1-E58E-4117-BEE7-A44DB6D82575}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tebeshir.Art.Authentication", "Tebeshir.Art.Authentication\Tebeshir.Art.Authentication.csproj", "{0F70F5A4-587B-40DB-A62C-4660843DD9B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{C2FEC255-2750-4B93-B4B8-EDD1B5F04545}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tebeshir.Art.ApiGateway", "Tebeshir.Art.ApiGateway\Tebeshir.Art.ApiGateway.csproj", "{3D0BE8E4-97A4-4908-8670-181CF746B690}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{6D23BF16-1CBE-4551-AA90-9EBE12EF1D47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tebeshir.Art.Catalog", "Tebeshir.Art.Catalog\Tebeshir.Art.Catalog.csproj", "{D676964B-46FE-4DD4-9678-C3FCDC6F8992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tebeshir.Art.Authentication.Business", "Tebeshir.Art.Authentication.Business\Tebeshir.Art.Authentication.Business.csproj", "{5B41876D-5D3A-4DB0-B441-2F9DE1B2CE01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tebeshir.Art.Authentication.Domain", "Tebeshir.Art.Authentication.Domain\Tebeshir.Art.Authentication.Domain.csproj", "{3BDFE41B-2A77-472E-AA3B-D84E746D42C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tebeshir.Art.Authentication.Infrastructure", "Tebeshir.Art.Authentication.Infrastructure\Tebeshir.Art.Authentication.Infrastructure.csproj", "{9347DB12-7AFD-4F01-8F39-BE41A5010F1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD94D17-3BE7-43A0-895C-DFEBD094CA35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD94D17-3BE7-43A0-895C-DFEBD094CA35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD94D17-3BE7-43A0-895C-DFEBD094CA35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD94D17-3BE7-43A0-895C-DFEBD094CA35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1147BEC-A126-446F-9581-4E0AD8792670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1147BEC-A126-446F-9581-4E0AD8792670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1147BEC-A126-446F-9581-4E0AD8792670}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C1147BEC-A126-446F-9581-4E0AD8792670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1147BEC-A126-446F-9581-4E0AD8792670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1147BEC-A126-446F-9581-4E0AD8792670}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0F70F5A4-587B-40DB-A62C-4660843DD9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F70F5A4-587B-40DB-A62C-4660843DD9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F70F5A4-587B-40DB-A62C-4660843DD9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F70F5A4-587B-40DB-A62C-4660843DD9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0BE8E4-97A4-4908-8670-181CF746B690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0BE8E4-97A4-4908-8670-181CF746B690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0BE8E4-97A4-4908-8670-181CF746B690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0BE8E4-97A4-4908-8670-181CF746B690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D676964B-46FE-4DD4-9678-C3FCDC6F8992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D676964B-46FE-4DD4-9678-C3FCDC6F8992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D676964B-46FE-4DD4-9678-C3FCDC6F8992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D676964B-46FE-4DD4-9678-C3FCDC6F8992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B41876D-5D3A-4DB0-B441-2F9DE1B2CE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B41876D-5D3A-4DB0-B441-2F9DE1B2CE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B41876D-5D3A-4DB0-B441-2F9DE1B2CE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B41876D-5D3A-4DB0-B441-2F9DE1B2CE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDFE41B-2A77-472E-AA3B-D84E746D42C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDFE41B-2A77-472E-AA3B-D84E746D42C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDFE41B-2A77-472E-AA3B-D84E746D42C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDFE41B-2A77-472E-AA3B-D84E746D42C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9347DB12-7AFD-4F01-8F39-BE41A5010F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9347DB12-7AFD-4F01-8F39-BE41A5010F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9347DB12-7AFD-4F01-8F39-BE41A5010F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9347DB12-7AFD-4F01-8F39-BE41A5010F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E67D0822-C1A7-4359-A050-013BEDA36812} = {4F9AE8F1-E58E-4117-BEE7-A44DB6D82575}
+		{0F70F5A4-587B-40DB-A62C-4660843DD9B9} = {E67D0822-C1A7-4359-A050-013BEDA36812}
+		{C2FEC255-2750-4B93-B4B8-EDD1B5F04545} = {9EEB2972-C1EE-478A-B5A5-F498BBE0CC43}
+		{3D0BE8E4-97A4-4908-8670-181CF746B690} = {C2FEC255-2750-4B93-B4B8-EDD1B5F04545}
+		{6D23BF16-1CBE-4551-AA90-9EBE12EF1D47} = {4F9AE8F1-E58E-4117-BEE7-A44DB6D82575}
+		{D676964B-46FE-4DD4-9678-C3FCDC6F8992} = {6D23BF16-1CBE-4551-AA90-9EBE12EF1D47}
+		{5B41876D-5D3A-4DB0-B441-2F9DE1B2CE01} = {E67D0822-C1A7-4359-A050-013BEDA36812}
+		{3BDFE41B-2A77-472E-AA3B-D84E746D42C6} = {E67D0822-C1A7-4359-A050-013BEDA36812}
+		{9347DB12-7AFD-4F01-8F39-BE41A5010F1E} = {E67D0822-C1A7-4359-A050-013BEDA36812}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DE3F260-9ACA-435B-9B3A-6F2E1FA89A87}
+	EndGlobalSection
+EndGlobal
